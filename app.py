@@ -11,5 +11,4 @@ def fib(n):
 @app.route('/test/<num>')
 def hello_world(num):
     fib(int(num))
-XXX
     return 'Hello, World!'
