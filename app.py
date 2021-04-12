@@ -10,6 +10,6 @@ def fib(n):
 
 @app.route('/test/<num>')
 def hello_world(num):
-    l = [None] * 1000000 * num
+    l = [None] * 10000 * int(num)
     fib(int(num))
     return 'Hello, World!'
